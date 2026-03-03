@@ -1,0 +1,249 @@
+🦁 Riget Zoo Adventure (RZA) – Desktop Application
+
+Riget Zoo Adventure (RZA) is a full-featured desktop application designed to simulate a real-world zoo management and visitor booking system. The application combines GUI development with backend database management to provide a seamless and interactive user experience.
+
+📌 Project Overview
+
+The application allows users to:
+
+Register and log in securely
+
+Purchase zoo tickets
+
+Book hotel rooms
+
+Explore membership plans (Silver & Gold)
+
+Earn and manage reward points
+
+View zoo information, map, prices, and opening times
+
+Access educational visit information
+
+Browse food and drink services
+
+The system integrates frontend interface design with a SQLite database backend.
+
+🎯 Key Features
+👤 User Account Management
+
+User Registration with validation
+
+Secure Login Authentication
+
+Membership selection
+
+User profile management
+
+Points accumulation system
+
+🎟 Ticket Booking System
+
+Select date and time slot
+
+Choose ticket type:
+
+Standard Adult
+
+Standard Child
+
+Standard Student
+
+Saver Ticket (2 adults + 2 children)
+
+Add to basket functionality
+
+🏨 Hotel Booking System
+
+Select check-in and check-out dates
+
+Choose number of guests
+
+Select room type (Single / Double)
+
+Add to basket functionality
+
+🏆 Membership Plans
+
+Silver Membership
+
+Gold Membership
+
+Exclusive benefits and discounts
+
+Priority booking features
+
+🎓 Educational Visits
+
+School group tailored programs
+
+Home learning visitor support
+
+Curriculum-aligned tours
+
+Educational resources
+
+🍽 Food & Drink
+
+Juice Bar
+
+Café
+
+Restaurant options
+
+🗺 Zoo Map
+
+Full zoo layout visualization
+
+🛠 Technologies Used
+
+Python
+
+Tkinter (GUI development)
+
+SQLite3 (Database management)
+
+ImageTk (UI image handling)
+
+🗃 Database Structure
+
+The application uses SQLite for persistent data storage.
+
+Key Data Fields
+Variable Name	Data Type	Purpose
+UserName	String	Identify current user
+FirstName	String	User information
+LastName	String	User information
+Password	String	Authentication
+Email	String	Confirmation & communication
+PostCode	String	Offers & marketing
+User_info	List of tuples	Retrieve user data
+conn	sqlite3.Connection	Database connection
+
+The database handles:
+
+User authentication
+
+Membership data
+
+Booking records
+
+Reward point tracking
+
+🔄 Core Functional Modules
+
+Login Function
+
+Registration Function
+
+Membership Function
+
+Buy Ticket Function
+
+Book Hotel Room Function
+
+Each module follows structured logic and interacts with the database to validate inputs and manage transactions.
+
+🧪 Testing Strategy
+
+The application was tested using:
+
+🔹 Black Box Testing
+
+Registration validation
+
+Login error handling
+
+Empty field validation
+
+Navigation flow testing
+
+Button redirection testing
+
+🔹 White Box Testing
+
+SQLite database interaction
+
+Internal function logic
+
+External library integration
+
+Backend validation conditions
+
+Testing ensured:
+
+Proper error handling
+
+Secure authentication
+
+Correct page navigation
+
+Database consistency
+
+🚀 How to Run the Project
+
+Clone the repository:
+
+git clone https://github.com/your-username/Riget-Zoo-Adventure.git
+
+Navigate to project directory:
+
+cd Riget-Zoo-Adventure
+
+Run the application:
+
+python main.py
+
+Make sure Python 3.x is installed.
+
+📷 Interface Overview
+
+The application includes:
+
+Welcome page with navigation bar
+
+Account management page
+
+Ticket booking calendar
+
+Membership purchase screen
+
+Hotel reservation interface
+
+Educational visit information page
+
+Zoo map display
+
+Food & drink section
+
+📈 Future Improvements
+
+Online payment gateway integration
+
+Role-based admin dashboard
+
+Web-based deployment (Flask/Django)
+
+Enhanced data analytics dashboard
+
+API integration
+
+Responsive UI redesign
+
+👨‍💻 Author
+
+Developed as part of an academic project to demonstrate:
+
+GUI Development
+
+Database Integration
+
+User Authentication
+
+Software Testing Strategies
+
+Application Flow Design
+
+📄 License
+
+This project is developed for educational purposes.
